@@ -63,6 +63,8 @@ nav{
 	display: flex;
 	padding: 0 13%;
 	align-items: center;
+	position: fixed;
+	width: 100%;
 }
 .nintendoLogo{
 	width: 105px;
@@ -99,14 +101,39 @@ button{
 	color: red;
 	font-size: 6px;
 }
+.hide{
+	display: none;
+}
 
 
 
 
 
 /* Portrait tablet and small desktops */
-@media (max-width: 940px) {
+@media (max-width: 1150px) {
+	nav{
+		padding: 0 7%;
+		transition: 0.3s;
+	}
 }
+
+@media (max-width: 940px) {
+	nav{
+		padding: 0 4%;
+		transition: 0.3s;
+	}
+}
+
+@media (max-width: 882px) {
+	.contactIcons, .socialIcons {
+	display: none;
+	}
+	.nintendoLogo{
+		width: 244px;
+	}
+
+}
+
 
 /* Landscape phone to portrait tablet */
 @media (max-width: 768px) {
