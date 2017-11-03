@@ -51,7 +51,7 @@ a{
 
 header{
 	min-height: 100vh;
-	background-image: linear-gradient(to bottom, rgba(0,0,0,0.4) 50%, rgba(0,0,0,0.3) 100%), url('../public/city.jpg');
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0.4) 50%, rgba(0,0,0,0.3) 100%), url('./city.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: 100%;
@@ -85,16 +85,15 @@ nav{
 button{
 	background: none;
   border: 2px solid black;
-  border-radius: 0;
+  border-radius: 2px;
   padding: 9px 12px;
   display: flex;
   align-items: center;
   width: 108px;
   font-size: 14px;
-  margin-left: 67px;
 }
 .liveButton{
-	
+	margin-left: 67px;
 }
 .fa-circle{
 	margin-right: 8px;
@@ -103,6 +102,9 @@ button{
 }
 .hide{
 	display: none;
+}
+.hamburger{
+	font-size: 16px;
 }
 
 
@@ -130,6 +132,17 @@ button{
 	}
 	.nintendoLogo{
 		width: 244px;
+	}
+	nav{
+		justify-content: space-between;
+	}
+	.liveButton{
+		margin-left: 0;
+	}
+	.hamburger{
+		display: block;
+		font-size: 29px;
+		cursor: pointer;
 	}
 
 }
