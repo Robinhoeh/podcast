@@ -132,6 +132,7 @@ button{
 	}
 	.nintendoLogo{
 		width: 244px;
+		margin-right: 0;
 	}
 	nav{
 		justify-content: space-between;
@@ -150,11 +151,21 @@ button{
 
 /* Landscape phone to portrait tablet */
 @media (max-width: 768px) {
+	.nintendoLogo{
+		width: 150px;
+	}
 }
 
 /* Landscape phones and down */
 @media (max-width: 480px) {
+	.nintendoLogo{
+		width: 110px;
+	}
 }
+
+/*navMenu*/
+
+
 
 
 
