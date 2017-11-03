@@ -43,14 +43,64 @@ img{
 }
 a{
 	text-decoration: none;
+	color: black;
 }
-main{
+
+
+/*Header*/
+
+header{
 	min-height: 100vh;
-	/*background-image: linear-gradient(to bottom, rgba(0,0,0,0.7) 50%, rgba(0,0,0,0.3) 100%), url('https://picsum.photos/1000/1000/?random');*/
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0.4) 50%, rgba(0,0,0,0.3) 100%), url('../public/city.jpg');
 	background-size: cover;
-	background-position: bottom center;
 	background-repeat: no-repeat;
+	background-position: 100%;
 }
+
+nav{
+	height: 74px;
+	background: white;
+	display: flex;
+	padding: 0 13%;
+	align-items: center;
+}
+.nintendoLogo{
+	width: 105px;
+	margin-right: 10px;
+}
+.contactIcons{
+	width: 70%;
+	font-size: 16px;
+	display: flex;
+	justify-content: flex-start;
+}
+.contactIcons li{
+	margin: 0 20px;
+}
+.socialIcons li{
+	margin-right: 10px;
+}
+button{
+	background: none;
+  border: 2px solid black;
+  border-radius: 0;
+  padding: 9px 12px;
+  display: flex;
+  align-items: center;
+  width: 108px;
+  font-size: 14px;
+  margin-left: 67px;
+}
+.liveButton{
+	
+}
+.fa-circle{
+	margin-right: 8px;
+	color: red;
+	font-size: 6px;
+}
+
+
 
 
 
