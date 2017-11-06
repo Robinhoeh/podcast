@@ -2,7 +2,7 @@ import $ from 'jquery';
 
 $(document).ready( () => {
   $('.hamburger').on('click', () => {
-  	$('.menu').toggleClass('mobileMenu');
-  	$('.menu').show('menu ul');
+  	$('.menu').toggleClass('dropDown');
+  	$('.menu').hide('mobileMenu');
   });
 });
