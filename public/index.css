@@ -142,7 +142,7 @@ button{
 }
 
 @media (max-width: 882px) {
-	.menu{
+	.menu ul{
 		display: none;
 	}
 	.menu ul.show{
