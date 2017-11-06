@@ -112,7 +112,7 @@ button{
 	width: 71%;
 	display: flex;
 }
-.dropDown.menu{
+.dropDown{
 	position: absolute;
 	top: 74px;
 	right: 0px;
@@ -144,6 +144,9 @@ button{
 @media (max-width: 882px) {
 	.menu{
 		display: none;
+	}
+	.menu ul.show{
+		display: flex;
 	}
 	.socialIcons, .contactIcons{
 		width: 100%;
