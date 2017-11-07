@@ -100,9 +100,6 @@ button{
 	color: red;
 	font-size: 6px;
 }
-.hide{
-	display: none;
-}
 .hamburger{
 	font-size: 16px;
 	display: none;
@@ -113,6 +110,7 @@ button{
 	display: flex;
 }
 .dropDown{
+	display: block;
 	position: absolute;
 	top: 74px;
 	right: 0px;
@@ -142,7 +140,7 @@ button{
 }
 
 @media (max-width: 882px) {
-	.menu ul{
+	.menu{
 		display: none;
 	}
 	.menu ul.show{
@@ -155,6 +153,10 @@ button{
 	}
 	.socialIcons{
 		justify-content: space-evenly;
+		padding: 0 100px;
+	}
+	.socialIcons li{
+		margin-right: 0;
 	}
 	.nintendoLogo{
 		width: 244px;
