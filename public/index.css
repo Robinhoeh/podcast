@@ -110,7 +110,6 @@ button{
 	display: flex;
 }
 .dropDown{
-	display: block;
 	position: absolute;
 	top: 74px;
 	right: 0px;
@@ -139,7 +138,7 @@ button{
 }
 
 @media (max-width: 882px) {
-	.menu{
+	.menu ul{
 		display: none;
 	}
 	.menu ul.show{
