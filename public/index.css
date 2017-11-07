@@ -111,6 +111,7 @@ button{
 }
 
 
+
 /* Portrait tablet and small desktops */
 @media (max-width: 1150px) {
 	nav{
@@ -130,9 +131,9 @@ button{
 	.menu ul{
 		display: none;
 	}
-	.menu{
+/*	.menu{
 		display: none;
-	}
+	}*/
 	.menu ul.show{
 		display: flex;
 	}
